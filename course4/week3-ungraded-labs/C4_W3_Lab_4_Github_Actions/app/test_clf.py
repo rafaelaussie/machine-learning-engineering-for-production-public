@@ -25,4 +25,4 @@ def test_pipeline_and_scaler():
 
     if isPipeline:
         firtStep = [v for v in clf.named_steps.values()][0]
-        assert isinstance(firststep, StandardScaler)
+        assert isinstance(firstStep, StandardScaler)
